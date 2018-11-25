@@ -6,8 +6,6 @@
 import tensorflow as tf
 from lib.gen.generator import GenVin
 import numpy as np
-from lib.logger import logger
-
 
 class NetWork():
 

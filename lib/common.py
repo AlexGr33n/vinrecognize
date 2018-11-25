@@ -8,7 +8,7 @@ from PIL import Image, ImageDraw
 
 def print_start():
     """
-    打印 开始 logog
+    打印 开始 logo
     :return:
     """
 
