@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="497e7824-1d53-428b-a3ae-e667d9334ad4" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/static/bad/back-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/predict/LFV2A21K6A3092399.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/predict/LFV2A28V9F5001458.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/predict/LFV3A21K363000175.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/predict/LFV6A24G2D3041348.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/predict/WBA1J1104FV302907.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/gen/generator.py" beforeDir="false" afterPath="$PROJECT_DIR$/lib/gen/generator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/bad/bad_1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/images/back.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,49 +23,61 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/vin_recognize$train_vin_code.coverage" NAME="train_vin_code Coverage Results" MODIFIED="1543128093822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/vin_recognize$generator.coverage" NAME="generator Coverage Results" MODIFIED="1543145471700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib/gen" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="vin_recognize" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="train_vin_code.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/train_vin_code.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#47#81#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="LFV2A21K6A3092399.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/predict/LFV2A21K6A3092399.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
+      <file leaf-file-name="LFV2A28V9F5001458.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/predict/LFV2A28V9F5001458.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="common.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/common.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2511">
-              <caret line="8" column="15" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="15" />
-            </state>
-          </provider>
+      <file leaf-file-name="LFV3A21K363000175.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/predict/LFV3A21K363000175.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
-      <file leaf-file-name="net_work.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net_work.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-8">
-              <caret line="141" column="11" lean-forward="true" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="11" />
-              <folding>
-                <element signature="e#73#96#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file leaf-file-name="0000.1G33N0F6848ANANNK.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/test/0000.1G33N0F6848ANANNK.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="0001.K6R5YWFZ6BR4JR259.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/test/0001.K6R5YWFZ6BR4JR259.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="0002.W7J2BADA41RXPXETW.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/test/0002.W7J2BADA41RXPXETW.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="0003.1946NP0B6TVK3JS94.jpg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/test/0003.1946NP0B6TVK3JS94.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="0004.4R03K4XD59B8DC8WR.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/test/0004.4R03K4XD59B8DC8WR.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="LFV6A24G2D3041348.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/predict/LFV6A24G2D3041348.jpg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file leaf-file-name="WBA1J1104FV302907.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/predict/WBA1J1104FV302907.jpg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -70,6 +92,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>print</find>
+      <find>concept-modes</find>
+      <find>bad_paths</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -81,11 +105,11 @@
         <option value="$PROJECT_DIR$/lib/logger.py" />
         <option value="$PROJECT_DIR$/lib/gen/static.py" />
         <option value="$PROJECT_DIR$/src/util.py" />
-        <option value="$PROJECT_DIR$/lib/common.py" />
-        <option value="$PROJECT_DIR$/src/net_work.py" />
-        <option value="$PROJECT_DIR$/lib/gen/generator.py" />
         <option value="$PROJECT_DIR$/src/train_vin_code.py" />
+        <option value="$PROJECT_DIR$/src/net_work.py" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/lib/common.py" />
+        <option value="$PROJECT_DIR$/lib/gen/generator.py" />
       </list>
     </option>
   </component>
@@ -124,6 +148,63 @@
               <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
               <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="gen" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="back" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bad" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="font" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="predict" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vin_recognize" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vin_recognize" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -137,12 +218,15 @@
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/back" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/bad" />
+      <recent name="$PROJECT_DIR$/static/predict" />
       <recent name="$PROJECT_DIR$/static/images" />
       <recent name="$PROJECT_DIR$/static" />
       <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/lib/gen" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -157,7 +241,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.generator">
+    <configuration name="generator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vin_recognize" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lib/gen" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lib/gen/generator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="train_vin_code" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="vin_recognize" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,8 +280,13 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <list>
+      <item itemvalue="Python.train_vin_code" />
+      <item itemvalue="Python.generator" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.generator" />
         <item itemvalue="Python.train_vin_code" />
       </list>
     </recent_temporary>
@@ -203,17 +311,17 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.63441956" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.296334" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.3299389" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15921193" />
+      <window_info anchor="bottom" id="Terminal" weight="0.5203666" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4993515" visible="true" weight="0.15921193" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="right" id="Database" />
       <window_info anchor="right" id="SciView" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Favorites" sideWeight="0.5006485" side_tool="true" weight="0.15921193" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -222,6 +330,29 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.4993515" visible="true" weight="0.15921193" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="0" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="2" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.34826884" />
+      <window_info anchor="bottom" id="Python Console" order="3" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="right" id="Database" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="4" weight="0.5203666" />
+      <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info id="Favorites" order="0" sideWeight="0.5006485" side_tool="true" weight="0.15921193" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -231,101 +362,174 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/gen/common.py">
+    <entry file="file://$PROJECT_DIR$/static/test/0003.LZ352YNR3M9JET1LL.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0004.KRR1G0TJ33PA6SV5V.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0000.LUN67T8K4LULPCSZ1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0001.JZV24X679E4ARW2K7.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0002.LRL6AUUV5VPR6ZDCG.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0003.1E78D8RA47A6UP2NN.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0004.JY7387VK6CYKM5MXR.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0001.W012F5KB763JEME0F.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0002.J5M902GB363VRH071.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0003.J1X5XNUT9JY1AG292.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0004.1J89MK054YC5MG5VV.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0000.JT46HKZK4LVELMPWB.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0001.41K2WEE72RGVG7DRP.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0002.JRD3A8JX7GJ4WSLKS.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0003.LN61Y05V00E0ARKGE.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0004.LU37E9Z74H7CKBRWE.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0001.LL38JKUM5EASH0XBR.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0002.48P1M81J48A781V73.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0000.LKT4YG9A1FDLWC8RU.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0000.LRL7EHD891F070458.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/tensorflow/python/ops/array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="1705" column="4" selection-start-line="1705" selection-start-column="4" selection-end-line="1705" selection-end-column="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/test/0001.KX0912EE9KLX63RBZ.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/test/0003.JZJ5U31L8LW9EAJUY.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="652">
-          <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/test/0004.4UA1E1GX7S1D8X8TY.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/tensorflow/python/ops/nn_impl.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
-          <caret line="782" column="4" selection-start-line="782" selection-start-column="4" selection-end-line="782" selection-end-column="4" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/test/0002.K4X1TJRU271P0EJXW.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$USER_HOME$/venv/lib/python3.6/site-packages/PIL/ImageFont.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="144" selection-start-line="144" selection-end-line="144" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/test/0000.W4L51MZL41YAU7MJ5.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/gen/static.py">
+    <entry file="file://$PROJECT_DIR$/static/test/0001.1SR3HMAV4PM0D67YB.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0002.1YS4NNT04DZAJDNLH.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0003.KSM8FUEF1WYD02PM0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0004.WVU3TN459EPFG7UL0.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="23" selection-start-line="1" selection-start-column="23" selection-end-line="1" selection-end-column="23" />
+        <state relative-caret-position="325">
+          <caret line="98" column="25" selection-start-line="98" selection-start-column="25" selection-end-line="98" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/gen/generator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="245" column="11" selection-start-line="245" selection-start-column="6" selection-end-line="245" selection-end-column="11" />
+        <state relative-caret-position="565">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
           <folding>
             <element signature="e#81#90#0" expanded="true" />
+            <marker date="1543145087792" expanded="true" signature="2850:2997" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net_work.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8">
-          <caret line="141" column="11" lean-forward="true" selection-start-line="141" selection-start-column="11" selection-end-line="141" selection-end-column="11" />
-          <folding>
-            <element signature="e#73#96#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/back/back.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2511">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/test/0000.JWH4DH2V7VACWDGHN.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/train_vin_code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#47#81#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/test/0001.WTX9X94X85N6Y6THS.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/static/test/0002.LNG63X5E3G524UGDK.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0003.W1P6BV5Z7CHU729P5.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0004.4UX5E50H3BMJMBUNG.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/back/back-3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/back/back-2.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/predict/LFV6A24G2D3041348.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/predict/WBA1J1104FV302907.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/predict/LFV2A28V9F5001458.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/predict/LFV2A21K6A3092399.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/predict/LFV3A21K363000175.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0004.4R03K4XD59B8DC8WR.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0001.K6R5YWFZ6BR4JR259.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0000.1G33N0F6848ANANNK.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0002.W7J2BADA41RXPXETW.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/test/0003.1946NP0B6TVK3JS94.jpg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
   </component>
   <component name="masterDetails">

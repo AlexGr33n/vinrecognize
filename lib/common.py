@@ -25,6 +25,7 @@ __      _____| | ___ ___  _ __ ___   ___  | |__  _   _  __ _
     """)
     print("====================================================================")
 
+
 def AddSmudginess(img, Smu):
     rows = r(Smu.shape[0] - 50)
 
@@ -83,19 +84,19 @@ def tfactor(img):
     :param img:
     :return:
     """
-    hsv = cv2.cvtColor(img, cv2.COLOR_GRAY2BGR)
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
     hsv[:, :, 0] = hsv[:, :, 0] * (0.8 + np.random.random() * 0.2)
     hsv[:, :, 1] = hsv[:, :, 1] * (0.3 + np.random.random() * 0.7)
     hsv[:, :, 2] = hsv[:, :, 2] * (0.2 + np.random.random() * 0.8)
 
-    img = cv2.cvtColor(hsv, cv2.COLOR_BGR2GRAY)
+    img = cv2.cvtColor(hsv, cv2.COLOR_HSV2BGR)
     return img
 
 
 def random_envirment(img, data_set):
     index = r(len(data_set))
-    env = cv2.imread(data_set[index])
+    env = cv2.imread(data_set[index], cv2.IMREAD_GRAYSCALE)
     env = cv2.resize(env, (img.shape[1], img.shape[0]))
     bak = (img == 0)
     bak = bak.astype(np.uint8) * 255
@@ -211,6 +212,18 @@ def add_with_alpha(bottom, top, a=0.6, b=0.4):
     # 权重越大，透明度越低
     overlapping = cv2.addWeighted(bottom, a, top, b, 0)
     return overlapping
+
+
+# 把彩色图像转为灰度图像（色彩对识别没有什么用）
+def convert2gray(img):
+    if len(img.shape) > 2:
+        # gray = np.mean(img, -1)
+        # 上面的转法较快，正规转法如下
+        r, g, b = img[:,:,0], img[:,:,1], img[:,:,2]
+        gray = 0.2989 * r + 0.5870 * g + 0.1140 * b
+        return gray
+    else:
+        return img
 
 
 if __name__ == '__main__':
