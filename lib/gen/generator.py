@@ -27,7 +27,7 @@ class GenVin:
     # See https://stackoverflow.com/questions/2726171/how-to-change-font-size-using-the-python-imagedraw-library
     def __init__(self, height, width, predict_path=predict_path,
                  NoPlates=bad_path, font_path=font_path,
-                 font=font,back_path=back_path):
+                 font=font, back_path=back_path):
 
         self.font_name = font
         self.font_path = font_path
@@ -72,7 +72,7 @@ class GenVin:
         img = self.img.copy()
         draw_model = ImageDraw.Draw(img)  # 修改图片
         distance = 0
-        base_rate = 3
+        base_rate = 0
         p = r(10) / 10
         if r(2) == 1:
             base_rate *= -p
@@ -113,8 +113,8 @@ class GenVin:
         # self.bg = random_envirment(self.bg,self.bad_paths)
         fg = self.draw(text)
         fg = cv2.resize(fg, (self.width, self.height))
-        if self.random_start(6):
-            fg = cv2.bitwise_not(fg)
+        # if self.random_start(6):
+        #     fg = cv2.bitwise_not(fg)
         # 背景图
         com = fg
         # com = add_two_img(self.bg,self.env)
@@ -145,7 +145,7 @@ class GenVin:
         img = self.generate(text)
         img = cv2.resize(img, (self.width, self.height))
         img = np.multiply(img, 1 / 255.0)  # [height,width,channel]
-        return img[:, :, :2], text, label  # 返回的label为标签，img为深度为3的图像像素
+        return img[:, :, 2], text, label  # 返回的label为标签，img为深度为3的图像像素
 
     # 生成一个训练batch
     def get_next_batch(self, batch_size=128):
@@ -227,10 +227,10 @@ class GenVin:
         return result
 
 
-generator = GenVin(50, 300, font='font.ttf')
+generator = GenVin(49, 258, font='font.ttf')
 if __name__ == '__main__':
     # generator = GenVin("./font/DejaVuSansMono.ttf",80,440)
     # print("".join(generator.get_text()))
     # generator = GenVin("./font/Bitter-Regular.ttf")
     # generator = GenVin("./font/SimHei.ttf")
-    generator.gen_Batch(5, test_gen_path)
+    generator.gen_Batch(10, test_gen_path)

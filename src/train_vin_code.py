@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+
+"""
+main function
+"""
 from lib.common import print_start
 from lib.gen.generator import GenVin
 from net_work import NetWork

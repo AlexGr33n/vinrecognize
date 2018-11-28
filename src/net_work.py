@@ -129,7 +129,7 @@ class NetWork():
                 print("第%s步，loss 为：%s" % (step, loss_))
                 # 每100 step计算一次准确率
                 if step % log_size == 0 and step != 0:
-                    batch_x_test, batch_y_test, text = self.gen.get_next_batch()
+                    batch_x_test, batch_y_test, text = self.gen.get_next_batch(batch_size=10)
                     acc, predict = sess.run([accuracy, max_idx_p],
                                             feed_dict={self.input: batch_x_test, self.labels: batch_y_test,
                                                        self.keep_prob: 1.,
